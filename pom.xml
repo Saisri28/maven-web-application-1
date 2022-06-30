@@ -93,6 +93,12 @@
 			<scope>provided</scope>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.jenkins-ci.plugins</groupId>
+    		    <artifactId>deploy</artifactId>
+                    <version>1.16</version>
+                </dependency>
+		
 	</dependencies>
 	
 	<distributionManagement>
@@ -148,6 +154,7 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+			
 			
 </plugins>
 	</build>
