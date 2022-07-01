@@ -49,7 +49,7 @@ node
    emailext body: '''Build is over
 
    Regards,
-   Mithun Technologies,
+   Ramya Deployed Mithun Technologies code to Tomcat Server,
    9980923226.''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com,bhaskar0504@gmail.com'
    }
     
